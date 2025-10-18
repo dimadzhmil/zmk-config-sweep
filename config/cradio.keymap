@@ -42,10 +42,10 @@
 
         layer_1 {
             bindings = <
-&kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &trans  &trans  &trans  &trans  &trans
-&kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp APOSTROPHE    &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH     &trans  &trans  &trans  &trans  &trans
-                                       &trans        &trans            &trans  &trans
+&kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp HOME  &kp PAGE_DOWN         &kp PAGE_UP   &kp INS             &kp INS
+&kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp APOSTROPHE    &kp LEFT  &mt RIGHT_SHIFT DOWN  &mt RCTRL UP  &mt LEFT_ALT RIGHT  &mt RIGHT_WIN DELETE
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH     &trans    &trans                &trans        &trans              &trans
+                                       &kp CAPS      &kp ESC           &trans    &trans
             >;
         };
     };
