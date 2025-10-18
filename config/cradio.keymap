@@ -29,6 +29,20 @@
     /*     }; */
     /* }; */
 
+    combos {
+        compatible = "zmk,combos";
+
+        left_boot {
+            bindings = <&bootloader>;
+            key-positions = <10 12 11 13>;
+        };
+
+        right_boot {
+            bindings = <&bootloader>;
+            key-positions = <16 17 18 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
