@@ -68,10 +68,10 @@
 
         layer_1 {
             bindings = <
-&kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp HOME  &kp PAGE_DOWN         &kp PAGE_UP        &kp END                   &kp INS
-&kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp APOSTROPHE    &kp LEFT  &mt RIGHT_SHIFT DOWN  &mt RCTRL UP       &mt LEFT_ALT RIGHT        &mt RIGHT_WIN DELETE
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH     &kp SEMI  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &mt RIGHT_ALT LEFT_BRACE  &kp RIGHT_BRACE
-                                       &kp COMMA     &kp DOT           &none     &trans
+&kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp HOME   &kp PAGE_DOWN         &kp PAGE_UP        &kp END                   &kp INS
+&kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp APOSTROPHE    &kp LEFT   &mt RIGHT_SHIFT DOWN  &mt RCTRL UP       &mt LEFT_ALT RIGHT        &mt RIGHT_WIN DELETE
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH     &kp COLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &mt RIGHT_ALT LEFT_BRACE  &kp RIGHT_BRACE
+                                       &trans        &trans            &none      &trans
             >;
         };
 
@@ -89,7 +89,7 @@
 &kp C_BRI_UP   &trans        &kp C_FF          &kp C_NEXT               &kp C_VOL_UP    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END      &kp INS
 &kp LEFT_WIN   &kp LEFT_ALT  &mt RCTRL C_STOP  &mt LSHIFT C_PLAY_PAUSE  &kp C_MUTE      &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT    &kp DELETE
 &kp C_BRI_DEC  &trans        &kp C_RW          &kp C_PREV               &kp C_VOL_DN    &kp K_UNDO  &kp K_CUT      &kp K_COPY   &kp K_PASTE  &kp C_AC_SEARCH
-                                               &trans                   &none           &kp ESC     &kp CAPS
+                                               &trans                   &none           &trans      &trans
             >;
         };
 
