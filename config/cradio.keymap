@@ -42,6 +42,16 @@
             bindings = <&bootloader>;
             key-positions = <16 17 18 19>;
         };
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <16 17>;
+        };
+
+        CapsLock {
+            bindings = <&kp CAPS>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
