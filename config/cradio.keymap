@@ -75,9 +75,9 @@
 
         layer_3 {
             bindings = <
-&kp C_BRI_UP   &trans        &kp C_FF          &kp C_NEXT               &kp C_VOL_UP    &kp HOME    &kp PAGE_DOWN         &kp PAGE_UP   &kp INS             &kp INS
-&kp LEFT_WIN   &kp LEFT_ALT  &mt RCTRL C_STOP  &mt LSHIFT C_PLAY_PAUSE  &kp C_MUTE      &kp LEFT    &mt RIGHT_SHIFT DOWN  &mt RCTRL UP  &mt LEFT_ALT RIGHT  &mt RIGHT_WIN DELETE
-&kp C_BRI_DEC  &trans        &kp C_RW          &kp C_PREV               &kp C_VOL_DN    &kp K_UNDO  &kp K_CUT             &kp K_COPY    &kp K_PASTE         &kp C_AC_SEARCH
+&kp C_BRI_UP   &trans        &kp C_FF          &kp C_NEXT               &kp C_VOL_UP    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp INS      &kp INS
+&kp LEFT_WIN   &kp LEFT_ALT  &mt RCTRL C_STOP  &mt LSHIFT C_PLAY_PAUSE  &kp C_MUTE      &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT    &kp DELETE
+&kp C_BRI_DEC  &trans        &kp C_RW          &kp C_PREV               &kp C_VOL_DN    &kp K_UNDO  &kp K_CUT      &kp K_COPY   &kp K_PASTE  &kp C_AC_SEARCH
                                                &trans                   &none           &kp ESC     &kp CAPS
             >;
         };
