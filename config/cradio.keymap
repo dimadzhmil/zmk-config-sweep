@@ -95,10 +95,10 @@
 
         layer_4 {
             bindings = <
-&trans        &trans        &trans     &bt BT_NXT      &bt BT_CLR_ALL    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp C_MENU
-&kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &bt BT_CLR        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp MCLK
-&trans        &trans        &trans     &bt BT_PRV      &trans            &trans          &trans          &trans        &trans           &trans
-                                       &none           &trans            &mkp LCLK       &mkp RCLK
+&trans         &trans         &bt BT_PRV     &bt BT_NXT      &bt BT_CLR_ALL    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp C_MENU
+&kp LEFT_WIN   &kp LEFT_ALT   &kp LCTRL      &kp LEFT_SHIFT  &bt BT_CLR        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp MCLK
+&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4     &trans          &trans          &trans        &trans           &trans
+                                             &none           &trans            &mkp LCLK       &mkp RCLK
             >;
         };
     };
