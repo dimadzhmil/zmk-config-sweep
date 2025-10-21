@@ -52,6 +52,11 @@
             bindings = <&kp CAPS>;
             key-positions = <12 13>;
         };
+
+        bluetoth {
+            bindings = <&lt 5 DEL>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
@@ -95,10 +100,19 @@
 
         layer_4 {
             bindings = <
-&trans         &trans         &bt BT_PRV     &bt BT_NXT      &bt BT_CLR_ALL    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp C_MENU
-&kp LEFT_WIN   &kp LEFT_ALT   &kp LCTRL      &kp LEFT_SHIFT  &bt BT_CLR        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp MCLK
-&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4     &trans          &trans          &trans        &trans           &trans
-                                             &none           &trans            &mkp LCLK       &mkp RCLK
+&trans        &trans        &trans     &trans          &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp C_MENU
+&kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp MCLK
+&trans        &trans        &trans     &trans          &trans    &trans          &trans          &trans        &trans           &trans
+                                       &none           &trans    &mkp LCLK       &mkp RCLK
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR_ALL  &trans         &bt BT_PRV     &bt BT_NXT     &bt BT_CLR       &trans  &trans  &trans  &trans  &trans
+&bt BT_DISC 0   &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans  &trans  &trans  &trans  &trans
+                                              &trans         &trans           &trans  &trans
             >;
         };
     };
