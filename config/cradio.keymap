@@ -71,7 +71,7 @@
             >;
         };
 
-        layer_1 {
+        num {
             bindings = <
 &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp HOME  &kp PAGE_DOWN         &kp PAGE_UP        &kp END                   &kp INS
 &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp APOSTROPHE    &kp LEFT  &mt RIGHT_SHIFT DOWN  &mt RCTRL UP       &mt LEFT_ALT RIGHT        &mt RIGHT_WIN DELETE
@@ -80,7 +80,7 @@
             >;
         };
 
-        layer_2 {
+        fn {
             bindings = <
 &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9    &kp F10    &trans  &trans           &trans     &trans         &trans
 &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6    &kp F11    &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT   &kp RIGHT_WIN
@@ -89,7 +89,7 @@
             >;
         };
 
-        layer_3 {
+        nav {
             bindings = <
 &kp C_BRI_UP   &trans        &kp C_FF          &kp C_NEXT               &kp C_VOL_UP    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END      &kp INS
 &kp LEFT_WIN   &kp LEFT_ALT  &mt RCTRL C_STOP  &mt LSHIFT C_PLAY_PAUSE  &kp C_MUTE      &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT    &kp DELETE
@@ -98,7 +98,7 @@
             >;
         };
 
-        layer_4 {
+        mouse {
             bindings = <
 &trans        &trans        &trans     &trans          &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp C_MENU
 &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp MCLK
@@ -107,12 +107,21 @@
             >;
         };
 
-        layer_5 {
+        bt {
             bindings = <
 &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL  &trans         &bt BT_PRV     &bt BT_NXT     &bt BT_CLR       &trans  &trans  &trans  &trans  &trans
 &bt BT_DISC 0   &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans  &trans  &trans  &trans  &trans
                                               &trans         &none            &none   &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&kp KP_PLUS     &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp HOME  &kp PAGE_DOWN         &kp PAGE_UP        &kp END                   &kp INS
+&kp UNDERSCORE  &kp DOLLAR       &kp PERCENT   &kp CARET             &kp DOUBLE_QUOTES        &kp LEFT  &mt RIGHT_SHIFT DOWN  &mt RCTRL UP       &mt LEFT_ALT RIGHT        &mt RIGHT_WIN DELETE
+&kp TILDE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp BACKSLASH            &kp PIPE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &mt RIGHT_ALT LEFT_BRACE  &kp RIGHT_BRACE
+                                               &trans                &trans                   &trans    &none
             >;
         };
     };
