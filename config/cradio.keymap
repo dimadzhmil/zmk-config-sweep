@@ -58,22 +58,22 @@
             key-positions = <32 33>;
         };
 
-        leftbrk {
+        left_brk {
             bindings = <&kp LBKT>;
             key-positions = <3 4>;
         };
 
-        rbrk {
+        right_brk {
             bindings = <&kp RBKT>;
             key-positions = <6 7>;
         };
 
-        leftbrc {
+        left_brc {
             bindings = <&kp LBRC>;
             key-positions = <23 22>;
         };
 
-        rightbrc {
+        right_brc {
             bindings = <&kp RBRC>;
             key-positions = <26 27>;
         };
