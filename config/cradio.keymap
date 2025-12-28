@@ -57,6 +57,26 @@
             bindings = <&lt 6 DEL>;
             key-positions = <32 33>;
         };
+
+        leftbrk {
+            bindings = <&kp LBKT>;
+            key-positions = <3 4>;
+        };
+
+        rbrk {
+            bindings = <&kp RBKT>;
+            key-positions = <6 7>;
+        };
+
+        leftbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <23 22>;
+        };
+
+        rightbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <26 27>;
+        };
     };
 
     keymap {
