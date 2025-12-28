@@ -53,9 +53,9 @@
             key-positions = <12 13>;
         };
 
-        bluetoth {
+        layer_bt {
             bindings = <&lt 6 DEL>;
-            key-positions = <32 33>;
+            key-positions = <17 18>;
         };
 
         left_brk {
@@ -76,6 +76,11 @@
         right_brc {
             bindings = <&kp RBRC>;
             key-positions = <26 27>;
+        };
+
+        layer_fn {
+            bindings = <&lt 3 KP_NUMBER_0>;
+            key-positions = <32 33>;
         };
     };
 
