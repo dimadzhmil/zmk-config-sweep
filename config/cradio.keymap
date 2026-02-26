@@ -53,11 +53,6 @@
             key-positions = <12 13>;
         };
 
-        layer_bt {
-            bindings = <&lt 6 DEL>;
-            key-positions = <17 18>;
-        };
-
         left_brk {
             bindings = <&kp LBKT>;
             key-positions = <3 4>;
@@ -81,6 +76,11 @@
         layer_fn {
             bindings = <&lt 3 KP_NUMBER_0>;
             key-positions = <32 33>;
+        };
+
+        layer_bt {
+            bindings = <&lt 6 DEL>;
+            key-positions = <18 17>;
         };
     };
 
