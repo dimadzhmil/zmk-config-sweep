@@ -6,28 +6,28 @@
 This is a 34-key layout I created and use on my Ferris Sweep keyboard. Currently the keyboard has 7 layers:
 Master half is left part of keyboard, slave - right.
 
-## Layouts
+## Layers
 
 **0 - main**<br />
-![main](images/layouts/0-main.png)
+![main](images/layers/0-main.png)
 
 **1 - num**<br />
-![num](images/layouts/1-num.png)
+![num](images/layers/1-num.png)
 
 **2 - symbol**<br />
-![symbol](images/layouts/2-symbol.png)
+![symbol](images/layers/2-symbol.png)
 
 **3 - fn**<br />
-![fn](images/layouts/3-fn.png)
+![fn](images/layers/3-fn.png)
 
 **4 - nav**<br />
-![nav](images/layouts/4-nav.png)
+![nav](images/layers/4-nav.png)
 
 **5 - mouse**<br />
-![mouse](images/layouts/5-mouse.png)
+![mouse](images/layers/5-mouse.png)
 
 **6 - bluetooth**<br />
-![bluetooth](images/layouts/6-bluetooth.png)
+![bluetooth](images/layers/6-bluetooth.png)
 
 ## Combos
 
@@ -38,10 +38,10 @@ Master half is left part of keyboard, slave - right.
 ![symbol](images/combos/2-symbol.png)
 
 **3 - layer**<br />
-![layout](images/combos/3-layer.png)
+![layer](images/combos/3-layer.png)
 
 **4 - bootloader**<br />
-![layout](images/combos/4-bootloader.png)
+![bootloader](images/combos/4-bootloader.png)
 
 ## How to configure and update firmware
 
