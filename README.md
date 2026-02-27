@@ -4,7 +4,10 @@
 ![Ferris Sweep v2.2](images/Ferris_Sweep2.jpg)
 
 This is a 34-key layout I created and use on my Ferris Sweep keyboard. Currently the keyboard has 7 layers:
-Master half is left part of keyboard, slave - right.
+
+
+> [!important]
+> Master half is left part of keyboard, slave - right.
 
 ## Layers
 
