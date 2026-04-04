@@ -73,16 +73,6 @@
             key-positions = <26 27>;
         };
 
-        layer_fn {
-            bindings = <&lt 3 KP_NUMBER_0>;
-            key-positions = <32 33>;
-        };
-
-        layer_bt {
-            bindings = <&lt 6 DEL>;
-            key-positions = <18 17>;
-        };
-
         left_prn {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <1 2>;
@@ -91,6 +81,16 @@
         right_prn {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <7 8>;
+        };
+
+        layer_fn {
+            bindings = <&lt 3 KP_NUMBER_0>;
+            key-positions = <32 33>;
+        };
+
+        layer_bt {
+            bindings = <&lt 6 DEL>;
+            key-positions = <18 17>;
         };
     };
 
