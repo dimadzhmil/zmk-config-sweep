@@ -37,8 +37,14 @@ This is a 34-key layout I created and use on my Ferris Sweep keyboard. Currently
 **1 - main**<br />
 ![main](images/combos/1-main.png)
 
-**2 - symbol**<br />
-![symbol](images/combos/2-symbol.png)
+**2.1 - symbol_prn**<br />
+![symbol](images/combos/2-symbol_prn.png)
+
+**2.2 - symbol_brk**<br />
+![symbol](images/combos/2-symbol_brk.png)
+
+**2.3 - symbol_brc**<br />
+![symbol](images/combos/2-symbol_brc.png)
 
 **3 - layer**<br />
 ![layer](images/combos/3-layer.png)
