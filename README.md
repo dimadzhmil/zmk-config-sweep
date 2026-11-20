@@ -11,46 +11,11 @@ This is a 34-key layout I created and use on my Ferris Sweep keyboard. Currently
 
 ## Layers
 
-**0 - main**<br />
-![main](images/layers/0-main.png)
-
-**1 - num**<br />
-![num](images/layers/1-num.png)
-
-**2 - symbol**<br />
-![symbol](images/layers/2-symbol.png)
-
-**3 - fn**<br />
-![fn](images/layers/3-fn.png)
-
-**4 - nav**<br />
-![nav](images/layers/4-nav.png)
-
-**5 - mouse**<br />
-![mouse](images/layers/5-mouse.png)
-
-**6 - bluetooth**<br />
-![bluetooth](images/layers/6-bluetooth.png)
+![layers](images/layers.png)
 
 ## Combos
 
-**1 - main**<br />
-![main](images/combos/1-main.png)
-
-**2.1 - symbol_prn**<br />
-![symbol](images/combos/2-symbol_prn.png)
-
-**2.2 - symbol_brk**<br />
-![symbol](images/combos/2-symbol_brk.png)
-
-**2.3 - symbol_brc**<br />
-![symbol](images/combos/2-symbol_brc.png)
-
-**3 - layer**<br />
-![layer](images/combos/3-layer.png)
-
-**4 - bootloader**<br />
-![bootloader](images/combos/4-bootloader.png)
+![combos](images/combos.png)
 
 ## How to configure and update firmware
 
