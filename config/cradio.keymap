@@ -35,12 +35,12 @@
 
         left_boot {
             bindings = <&bootloader>;
-            key-positions = <10 12 11 13>;
+            key-positions = <0 1>;
         };
 
         right_boot {
             bindings = <&bootloader>;
-            key-positions = <16 17 18 19>;
+            key-positions = <8 9>;
         };
 
         Escape {
@@ -55,7 +55,7 @@
 
         left_brk {
             bindings = <&kp LBKT>;
-            key-positions = <3 4>;
+            key-positions = <3 2>;
         };
 
         right_brk {
